@@ -6,7 +6,6 @@ import { getAuth, GoogleAuthProvider } from "firebase/auth";
 // ✅ Your actual Firebase config
 const firebaseConfig = {
   apiKey: process.env.REACT_APP_FIREBASE_API_KEY,
-  apiKey: "AIzaSyBjNCcr0wE3fmnmv3iZH5Rae2O2BNSw9vU",
   authDomain: "helphood-5b101.firebaseapp.com",
   projectId: "helphood-5b101",
   storageBucket: "helphood-5b101.appspot.com", // 🔁 typo fixed here: was firebasestorage.app
